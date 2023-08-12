@@ -3,38 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Meu primeiro portifólio WEB</title> 
-    <style>
-        #nome {
-            font-family: "Roboto";
-            
-        }
-
-        #descricaosobre {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-
-        }
-
-        body {
-            background-color: blanchedalmond;
-        }
-
-        .highlighted {
-            font-weight: bold;
-            color: #FF0000;
-
-        }
-
-        .listperso {
-            font-size: 22px;
-        }
-
-
-
-
-    </style>
-
+    
 </head>
 <body>
     <h1>Minha página sobre mim!!!</h1>
@@ -44,22 +15,31 @@
         <li><a href="#linkexterno" >Links, Interno e Externo</a></li>
     </ul>
 
-    <h2 id="nome">Kaique Medeiro da Silva</h2>
+    
+    <div class="nome">
+        <h2 id="nome">Kaique Medeiro da Silva</h2>
+    </div>
+
     <br>
-    <img src="1fd4309d-58e2-4274-8399-57eae7ab7aae.jpeg" alt="minha foto" width="300px" id="foto1" >
+    <div class="foto">
+        <img src="1fd4309d-58e2-4274-8399-57eae7ab7aae.jpeg" alt="minha foto" width="300px" id="foto1" >
+    </div>
     <p ><small>-Foto no primeiro dia de Trybe</small></p>
 
     <h2 id="sobremim" >Sobre mim: </h2>
-    <p id="descricaosobre">Sou o Kaique Medeiro, um entusiasta de tecnologia que vive na acolhedora cidade de <strong class="highlighted">Salto, São Paulo, Brasil</strong>. Atualmente, estou em um empolgante processo de transição de carreira para o setor de tecnologia, seguindo minha paixão por essa área fascinante. Sou estudante dedicado no curso de Análise e Desenvolvimento de Sistemas, sempre em busca de aprimorar meus conhecimentos e explorar as inúmeras possibilidades que a tecnologia oferece.
+    
+    <div class="descricaosobremim">
+        <p id="descricaosobre">Sou o Kaique Medeiro, um entusiasta de tecnologia que vive na acolhedora cidade de <strong class="highlighted">Salto, São Paulo, Brasil</strong>. Atualmente, estou em um empolgante processo de transição de carreira para o setor de tecnologia, seguindo minha paixão por essa área fascinante. Sou estudante dedicado no curso de Análise e Desenvolvimento de Sistemas, sempre em busca de aprimorar meus conhecimentos e explorar as inúmeras possibilidades que a tecnologia oferece.
 
         Minha jornada até aqui também inclui experiências valiosas em setores técnicos e de energia. Tive a oportunidade de me envolver em projetos de georreferenciamento, assistência técnica e redes de serviços de distribuição elétrica. Essas experiências moldaram minha versatilidade e minha capacidade de enfrentar diferentes desafios, características essenciais no mundo em constante evolução da tecnologia.
         
         Enquanto persigo meu futuro no campo da tecnologia, estou determinado a me tornar uma peça fundamental na engrenagem da inovação e do progresso. Ao mesmo tempo, mantenho um forte vínculo com minha comunidade aqui em <strong class="highlighted">Salto, São Paulo</strong>, onde encontro inspiração e apoio para seguir adiante.</p>
+    </div>
 
     <ul>
-        <li class="listperso"><strong>Java</strong></li>
-        <li class="listperso"><strong>RPA (Robotic Process Automation)</strong></li>
-        <li class="listperso"><strong>Back-End Development</strong></li>
+        <li class="listperso impar"><strong>Java</strong></li>
+        <li class="listperso par"><strong>RPA (Robotic Process Automation)</strong></li>
+        <li class="listperso impar"><strong>Back-End Development</strong></li>
 
 
 

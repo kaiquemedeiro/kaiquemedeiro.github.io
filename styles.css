@@ -1,0 +1,46 @@
+#nome {
+    font-family: "Roboto";
+    
+}
+
+#descricaosobre {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.highlighted {
+    font-weight: bold;
+    color: #FF0000;
+
+}
+
+.listperso {
+    font-size: 22px;
+}
+
+.descricaosobremim {
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+
+.nome {
+    text-align: center;
+}
+
+.foto {
+    background-color: blue;
+    padding: 20px;
+}
+
+ul li.impar {
+
+    font-style: italic;
+
+}
+
